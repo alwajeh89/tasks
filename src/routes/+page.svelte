@@ -1,7 +1,5 @@
 <script lang="ts">
-	import dayjs  from 'dayjs';
-	import { tasks } from '$lib/stores/tasks';
-    import { fade } from 'svelte/transition';
+
 	import Header from '$lib/Header.svelte';
 	import Input from '$lib/input.svelte';
     import List from '$lib/list.svelte';
