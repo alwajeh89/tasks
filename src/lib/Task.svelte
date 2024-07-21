@@ -60,7 +60,7 @@ function applyFilter(filter:typeof $filter,task:Task):boolean{
 
 <li transition:slide={{ delay: 100, duration: 300, easing: quintOut, axis: 'y' }}
  class="bg-[#a4c2d8] p-4 rounded-full flex justify-between items-center h-18">
-    <div class=" checkbox-wrapper-41 ">	
+    <div class=" checkbox-wrapper-41  ">	
         <input bind:checked={task.isdone} type="checkbox" >
                 <span class="mr-2">
             {task.title}
