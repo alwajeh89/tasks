@@ -14,7 +14,7 @@ declare namespace App {
 declare global{
 	interface Task{
 		title : String;
-		assigndate:String;
+		date:String;
 		isdone:boolean;
 	}
 }
